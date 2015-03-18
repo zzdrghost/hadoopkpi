@@ -1,0 +1,10 @@
+<graph xAxisName='页面' yAxisName='页面访问量' baseFontSize='12' >
+    <set label='about' value='5' ></set>
+    <set label='black-ip-list' value='2' /> 
+    <set label='cassandra-clustor' value='3' /> 
+    <set label='finance-rhive-repurchase' value='13' /> 
+    <set label='hadoop-family-roadmap' value='13' />
+    <set label='hadoop-hive-intro' value='14' /> 
+    <set label='hadoop-mahout-roadmap' value='20' /> 
+    <set label='hadoop-zookeeper-intro' value='6' /> 
+</graph>
