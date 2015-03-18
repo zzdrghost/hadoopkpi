@@ -1,4 +1,0 @@
-<graph xAxisName='客户端类型' yAxisName='数量' baseFontSize='12' >
-    <set label='移动端' value='773' ></set>
-    <set label='PC端' value='12762' /> 
-</graph>
