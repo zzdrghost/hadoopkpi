@@ -34,7 +34,10 @@ public class KPI {
             kpi.setHttp_referer(arr[10]);
             
             if (arr.length > 12) {
-                kpi.setHttp_user_agent(arr[11] + " " + arr[12]);
+            	kpi.setHttp_user_agent(arr[11]);
+            	for(int i=12;i<arr.length;i++){
+                kpi.setHttp_user_agent(kpi.getHttp_user_agent()+ " " + arr[i]);
+            	}
             } else {
                 kpi.setHttp_user_agent(arr[11]);
             }
